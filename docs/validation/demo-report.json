@@ -1,0 +1,253 @@
+{
+  "fixture_only": true,
+  "live_network_tested": false,
+  "device_evidence": false,
+  "library_root": "/mnt/data/aero-demo/AERO_LIBRARY",
+  "entity_id": "entity-4276c48f7deb584f954715d78881b4de",
+  "imports": [
+    {
+      "item_id": "item-55fef5d3da4f510eb1eea67deb8b89f8",
+      "revision_id": "rev-a95aad9aacbb696c950813a24db09e70",
+      "state": "INDEXED",
+      "size": 189,
+      "sha256": "e74cfa5cc8370eaeb328b57933e2e208de4f34f3fc4207809ca9c87ba82e3228",
+      "record_location": "_records/items/item-55fef5d3da4f510eb1eea67deb8b89f8/rev-a95aad9aacbb696c950813a24db09e70.json",
+      "warnings": []
+    },
+    {
+      "item_id": "item-6781ced4cc5d5e0287ae855151112672",
+      "revision_id": "rev-8d4cd86c374b5c8f59754fbfd2fa0fdd",
+      "state": "INDEXED",
+      "size": 10240,
+      "sha256": "dd090583b933c66cd9792012747a2a30f52180625b7c6e7c744a00ce5bb9bd6c",
+      "record_location": "_records/items/item-6781ced4cc5d5e0287ae855151112672/rev-8d4cd86c374b5c8f59754fbfd2fa0fdd.json",
+      "warnings": []
+    },
+    {
+      "item_id": "item-006470c17c4f536a9ce42b8620929e16",
+      "revision_id": "rev-d4b3c84d5b0ac20801c82fc24f6e5159",
+      "state": "STORED_ONLY",
+      "size": 53,
+      "sha256": "cba997cabe902b71c0139c4e2b2d2c5aba21d6c5733fb74c113b5fcce1d62aaa",
+      "record_location": "_records/items/item-006470c17c4f536a9ce42b8620929e16/rev-d4b3c84d5b0ac20801c82fc24f6e5159.json",
+      "warnings": [
+        "OPAQUE_BYTES_RETAINED_NO_EXECUTION"
+      ]
+    },
+    {
+      "item_id": "item-8d7a2088986458208156a9b48937dad0",
+      "revision_id": "rev-eb5985464c6d4c60b93c6abbf540bc4f",
+      "state": "INDEXED",
+      "size": 2342,
+      "sha256": "5ef3657dd3907e363434fed505f3e37814769a5962366f628e9f17ff407f5592",
+      "record_location": "_records/items/item-8d7a2088986458208156a9b48937dad0/rev-eb5985464c6d4c60b93c6abbf540bc4f.json",
+      "warnings": []
+    }
+  ],
+  "repository_commit": "0520086afded2f26f54883a6ecf9ba553ff917e5",
+  "citation": "aero://item-55fef5d3da4f510eb1eea67deb8b89f8/rev-a95aad9aacbb696c950813a24db09e70#chunk-71501c6ad04c8eece9936b1f",
+  "cited_passage": {
+    "item_id": "item-55fef5d3da4f510eb1eea67deb8b89f8",
+    "revision_id": "rev-a95aad9aacbb696c950813a24db09e70",
+    "anchor": {
+      "encoding": "utf-8",
+      "kind": "source_text",
+      "line_end": 6,
+      "line_start": 1,
+      "offset_basis": "unicode_characters",
+      "text_end": 189,
+      "text_start": 0
+    },
+    "chunk_id": "chunk-71501c6ad04c8eece9936b1f",
+    "text": "# Synthetic AERO demonstration\n\nNot Nintendo documentation or hardware evidence.\nAERO_DEMO_Init initializes a fictional test transport.\nLicense: CC0-1.0. Created only to test this library.\n",
+    "original_sha256": "e74cfa5cc8370eaeb328b57933e2e208de4f34f3fc4207809ca9c87ba82e3228",
+    "source_key": "import://inbox/synthetic-manual.md",
+    "source_occurrence_ids": [
+      "occurrence-fcecca6745215c45965aaf6c11ab08d8"
+    ],
+    "processing_run_id": "run-67e77b214aff5481ac5eb13321e7fa95",
+    "citation": "aero://item-55fef5d3da4f510eb1eea67deb8b89f8/rev-a95aad9aacbb696c950813a24db09e70#chunk-71501c6ad04c8eece9936b1f",
+    "role": "extracted",
+    "source_role": "model-generated",
+    "scope": {
+      "category": "hardware/architecture_overviews",
+      "component_id": null,
+      "component_version": null,
+      "entity_id": "entity-4276c48f7deb584f954715d78881b4de",
+      "game_build": null,
+      "game_edition": null,
+      "game_id": null,
+      "hardware_model": null,
+      "hardware_revision": null,
+      "language": null,
+      "manufacturer": "nintendo",
+      "platform": "wii",
+      "region": null,
+      "related_entities": [],
+      "system_version": null
+    },
+    "publication_date": "2026-09-30",
+    "warnings": [],
+    "advisory": true,
+    "instruction_trust": "untrusted_source_data"
+  },
+  "pdf_page_anchor": {
+    "kind": "pdf_page",
+    "page": 2,
+    "page_numbering": "physical_1_based",
+    "text_end": 171,
+    "text_start": 0
+  },
+  "advisory_capture": {
+    "capture_id": "capture-e0e09056fc54520c84f5f8402cf28c02",
+    "location": "/mnt/data/aero-demo/ACTIVE_AERO/reference-intake/capture-e0e09056fc54520c84f5f8402cf28c02.reference.json",
+    "scientific_record_modified": false
+  },
+  "export": {
+    "export_id": "export-0380b59eb9cc4fe3934c5d079b07e6ad",
+    "location": "/mnt/data/aero-demo/AERO_LIBRARY/_exports/export-0380b59eb9cc4fe3934c5d079b07e6ad",
+    "count": 4,
+    "files": [
+      {
+        "filename": "synthetic-manual--7deb8b89f8--4db09e70.md",
+        "item_id": "item-55fef5d3da4f510eb1eea67deb8b89f8",
+        "revision_id": "rev-a95aad9aacbb696c950813a24db09e70",
+        "sha256": "e74cfa5cc8370eaeb328b57933e2e208de4f34f3fc4207809ca9c87ba82e3228",
+        "source_key": "import://inbox/synthetic-manual.md",
+        "license": "CC0-1.0",
+        "source_occurrence_ids": [
+          "occurrence-fcecca6745215c45965aaf6c11ab08d8"
+        ],
+        "scope": {
+          "category": "hardware/architecture_overviews",
+          "component_id": null,
+          "component_version": null,
+          "entity_id": "entity-4276c48f7deb584f954715d78881b4de",
+          "game_build": null,
+          "game_edition": null,
+          "game_id": null,
+          "hardware_model": null,
+          "hardware_revision": null,
+          "language": null,
+          "manufacturer": "nintendo",
+          "platform": "wii",
+          "region": null,
+          "related_entities": [],
+          "system_version": null
+        }
+      },
+      {
+        "filename": "synthetic-project--0520086afded--5151112672--d2fa0fdd.tar",
+        "item_id": "item-6781ced4cc5d5e0287ae855151112672",
+        "revision_id": "rev-8d4cd86c374b5c8f59754fbfd2fa0fdd",
+        "sha256": "dd090583b933c66cd9792012747a2a30f52180625b7c6e7c744a00ce5bb9bd6c",
+        "source_key": "import://inbox/synthetic-project",
+        "license": "CC0-1.0",
+        "source_occurrence_ids": [
+          "occurrence-14b1df1c15a4591b905e77ae2d385991"
+        ],
+        "scope": {
+          "category": "sdks_and_toolchains/community_sdks",
+          "component_id": null,
+          "component_version": null,
+          "entity_id": "entity-4276c48f7deb584f954715d78881b4de",
+          "game_build": null,
+          "game_edition": null,
+          "game_id": null,
+          "hardware_model": null,
+          "hardware_revision": null,
+          "language": null,
+          "manufacturer": "nintendo",
+          "platform": "wii",
+          "region": null,
+          "related_entities": [],
+          "system_version": null
+        }
+      },
+      {
+        "filename": "inert-sample--8620929e16--4f6e5159.bin",
+        "item_id": "item-006470c17c4f536a9ce42b8620929e16",
+        "revision_id": "rev-d4b3c84d5b0ac20801c82fc24f6e5159",
+        "sha256": "cba997cabe902b71c0139c4e2b2d2c5aba21d6c5733fb74c113b5fcce1d62aaa",
+        "source_key": "import://inbox/inert-sample.bin",
+        "license": "CC0-1.0",
+        "source_occurrence_ids": [
+          "occurrence-85142c08d014515c87f5978d52b0545d"
+        ],
+        "scope": {
+          "category": "system_firmware/unknown_or_unattributed",
+          "component_id": null,
+          "component_version": null,
+          "entity_id": "entity-4276c48f7deb584f954715d78881b4de",
+          "game_build": null,
+          "game_edition": null,
+          "game_id": null,
+          "hardware_model": null,
+          "hardware_revision": null,
+          "language": null,
+          "manufacturer": "nintendo",
+          "platform": "wii",
+          "region": null,
+          "related_entities": [],
+          "system_version": null
+        }
+      },
+      {
+        "filename": "synthetic-pages--b48937dad0--f540bc4f.pdf",
+        "item_id": "item-8d7a2088986458208156a9b48937dad0",
+        "revision_id": "rev-eb5985464c6d4c60b93c6abbf540bc4f",
+        "sha256": "5ef3657dd3907e363434fed505f3e37814769a5962366f628e9f17ff407f5592",
+        "source_key": "import://inbox/synthetic-pages.pdf",
+        "license": "CC0-1.0",
+        "source_occurrence_ids": [
+          "occurrence-b71839c244845e2fb4f50beb38c43e40"
+        ],
+        "scope": {
+          "category": "hardware/architecture_overviews",
+          "component_id": null,
+          "component_version": null,
+          "entity_id": "entity-4276c48f7deb584f954715d78881b4de",
+          "game_build": null,
+          "game_edition": null,
+          "game_id": null,
+          "hardware_model": null,
+          "hardware_revision": null,
+          "language": null,
+          "manufacturer": "nintendo",
+          "platform": "wii",
+          "region": null,
+          "related_entities": [],
+          "system_version": null
+        }
+      }
+    ],
+    "skipped": []
+  },
+  "retrieval_at_end": {
+    "enabled": false,
+    "generation": 2,
+    "previous_context_erased": false
+  },
+  "retrieval_off_checks": {
+    "new_search": "RETRIEVAL_OFF",
+    "queued_result": "RETRIEVAL_OFF"
+  },
+  "validation": {
+    "library_root": "/mnt/data/aero-demo/AERO_LIBRARY",
+    "retrieval_enabled": false,
+    "valid": true,
+    "counts": {
+      "objects": 11,
+      "items": 4,
+      "occurrences": 4,
+      "citations": 5,
+      "pointers": 5
+    },
+    "errors": [],
+    "index_rebuilt": {
+      "items": 4,
+      "chunks": 5
+    },
+    "scientific_correctness_verified": false
+  }
+}
