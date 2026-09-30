@@ -1,0 +1,27 @@
+{
+  "name": "aero-webscraper",
+  "version": "0.2.0",
+  "description": "Skills-only reference collection using ChatGPT native browsing and file tools; no custom backend, scraper service, or local installation.",
+  "author": {
+    "name": "AERO"
+  },
+  "keywords": [
+    "reference-library",
+    "native-browsing",
+    "skills-only",
+    "reverse-engineering",
+    "provenance"
+  ],
+  "interface": {
+    "displayName": "AERO-WebScraper",
+    "shortDescription": "Research and collect in chat",
+    "longDescription": "Eight instruction-based skills guide ChatGPT through source discovery, bounded link traversal, evidence extraction, classification, source catalogs, and resumable collection. Uses tools available in the conversation. No custom MCP server, Python runtime, external scraper, API key, or local setup. Original-file acquisition and persistent saving depend on actual native tool support; unsupported operations are reported, not simulated.",
+    "developerName": "AERO",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Plan a bounded documentation collection for a device or software project, using AERO-Library and reporting actual results and unresolved gaps."
+  },
+  "skills": "./skills"
+}

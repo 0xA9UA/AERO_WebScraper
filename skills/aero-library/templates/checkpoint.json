@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.2.0",
+  "run_id": null,
+  "catalog_revision": 1,
+  "target": null,
+  "mode": "collect",
+  "scope": {},
+  "source_restrictions": [],
+  "capabilities_observed": [],
+  "budgets": {
+    "search_queries": 8,
+    "distinct_source_pages": 20,
+    "max_link_depth": 2,
+    "original_file_attempts": 10
+  },
+  "counters": {
+    "search_queries": 0,
+    "distinct_source_pages": 0,
+    "original_file_attempts": 0,
+    "original_files_saved": 0,
+    "notes_generated": 0
+  },
+  "visited_urls": [],
+  "pending_queue": [],
+  "last_completed_action": null,
+  "outputs": [],
+  "persistence": {
+    "state": "not_saved",
+    "destination": null,
+    "confirmed_file_refs": []
+  },
+  "retrieval": {
+    "mode": "current_run",
+    "excluded_corpora": []
+  },
+  "next_action": null,
+  "status": "not_started"
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.2.0",
+  "run_id": null,
+  "source_id": null,
+  "observation_revision": 1,
+  "title": null,
+  "source_type": "web_page",
+  "requested_url": null,
+  "resolved_url": null,
+  "source_file_ref": null,
+  "observed_at": null,
+  "published_at": null,
+  "source_revision": null,
+  "target": null,
+  "scope": {
+    "hardware_model": null,
+    "hardware_revision": null,
+    "region": null,
+    "system_version": null,
+    "component_version": null,
+    "game_build": null,
+    "software_version": null
+  },
+  "category": null,
+  "inspection": {
+    "state": "discovered",
+    "locators": [],
+    "gaps": [],
+    "reason": null
+  },
+  "capture": {
+    "state": "not_saved",
+    "file_ref_or_path": null,
+    "representation": null,
+    "size_bytes": null,
+    "sha256": null,
+    "publisher_checksum": null
+  },
+  "provenance": {
+    "discovery_query": null,
+    "parent_source_id": null,
+    "evidence_basis": null,
+    "session_citations": [],
+    "uncertainty": []
+  },
+  "license": {
+    "name": null,
+    "source_locator": null,
+    "redistribution_status": "unknown"
+  },
+  "notes": [],
+  "relations": []
+}
