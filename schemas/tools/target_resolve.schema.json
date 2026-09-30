@@ -1,0 +1,69 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "target": {
+      "maxLength": 300,
+      "minLength": 1,
+      "title": "Target",
+      "type": "string"
+    },
+    "manufacturer": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Manufacturer"
+    },
+    "platform": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Platform"
+    },
+    "kind": {
+      "default": "game_console",
+      "enum": [
+        "game_console",
+        "game",
+        "software_project",
+        "online_service",
+        "peripheral"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "console_class": {
+      "anyOf": [
+        {
+          "enum": [
+            "home",
+            "handheld",
+            "hybrid"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Console Class"
+    }
+  },
+  "required": [
+    "target"
+  ],
+  "title": "TargetArgs",
+  "type": "object"
+}
