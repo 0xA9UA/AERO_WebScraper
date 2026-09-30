@@ -1,0 +1,12 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "rebuild_index": {
+      "default": false,
+      "title": "Rebuild Index",
+      "type": "boolean"
+    }
+  },
+  "title": "ValidateArgs",
+  "type": "object"
+}
